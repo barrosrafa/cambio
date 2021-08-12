@@ -1,0 +1,350 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!--Default Dimens-->
+    <dimen name="default_margin_1_dp">1dp</dimen>
+    <dimen name="default_margin_2_dp">2dp</dimen>
+    <dimen name="default_margin_3_dp">3dp</dimen>
+    <dimen name="default_margin_4_dp">4dp</dimen>
+    <dimen name="default_margin_5_dp">5dp</dimen>
+    <dimen name="default_margin_tiny">6dp</dimen>
+    <dimen name="default_margin_8_dp">8dp</dimen>
+    <dimen name="default_margin_10_dp">10dp</dimen>
+    <dimen name="default_margin_11_dp">11dp</dimen>
+    <dimen name="default_margin_12_dp">12dp</dimen>
+    <dimen name="default_margin_13_dp">13dp</dimen>
+    <dimen name="default_margin_14_dp">14dp</dimen>
+    <dimen name="default_margin_15_dp">15dp</dimen>
+    <dimen name="default_margin_16_dp">16dp</dimen>
+    <dimen name="default_margin_17_dp">17dp</dimen>
+    <dimen name="default_margin_19_dp">19dp</dimen>
+    <dimen name="default_margin_20_dp">20dp</dimen>
+    <dimen name="default_margin_22_dp">22dp</dimen>
+    <dimen name="default_margin_25_dp">25dp</dimen>
+    <dimen name="default_margin_26_dp">26dp</dimen>
+    <dimen name="default_margin_30_dp">30dp</dimen>
+    <dimen name="default_margin_32_dp">32dp</dimen>
+    <dimen name="default_margin_33_dp">33dp</dimen>
+    <dimen name="default_margin_35_dp">35dp</dimen>
+    <dimen name="default_margin_36_dp">36dp</dimen>
+    <dimen name="default_margin_40_dp">40dp</dimen>
+    <dimen name="default_margin_43_dp">43dp</dimen>
+    <dimen name="default_margin_44_dp">44dp</dimen>
+    <dimen name="default_margin_45_dp">45dp</dimen>
+    <dimen name="default_margin_50_dp">50dp</dimen>
+    <dimen name="default_margin_70_dp">70dp</dimen>
+    <dimen name="default_margin_100_dp">100dp</dimen>
+    <dimen name="default_margin_120_dp">120dp</dimen>
+    <dimen name="default_corner_radius_3_dp">3dp</dimen>
+    <dimen name="default_corner_radius_272_dp">272dp</dimen>
+    <dimen name="default_corner_radius_350_dp">350dp</dimen>
+
+    <dimen name="default_text_8_sp">8sp</dimen>
+    <dimen name="default_text_12_sp">12sp</dimen>
+    <dimen name="default_text_14_sp">14sp</dimen>
+    <dimen name="default_text_15_sp">15sp</dimen>
+    <dimen name="default_text_16_sp">16sp</dimen>
+    <dimen name="default_text_18_sp">18sp</dimen>
+    <dimen name="default_text_20_sp">20sp</dimen>
+    <dimen name="default_text_30_sp">30sp</dimen>
+    <dimen name="default_text_36_sp">36sp</dimen>
+
+    <!--Default Spinner Spacing-->
+
+    <!--Custom Dimens-->
+
+    <!--Login-->
+
+    <!--Password-->
+
+    <!--Token Slider-->
+
+    <!--Se for alterar, altera os dois-->
+
+    <!--Virtual Keyboard-->
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+
+    <!--Token Coachmark-->
+
+    <!-- Notifications -->
+
+    <!-- Logged Home -->
+
+    <!-- My Manager -->
+
+    <!-- Conctact Us -->
+
+    <!--Limit ProgressBar -->
+
+    <!--Credit Cards PageIndicator-->
+
+    <!-- Transfer -->
+
+    <!-- Open Value Picker-->
+
+    <!--Widget value Picker-->
+    <dimen name="value_picker_text_width">30dp</dimen>
+    <dimen name="value_picker_stroke_width">1dp</dimen>
+    <dimen name="value_picker_stroke_2x_width">2dp</dimen>
+    <dimen name="value_picker_margin_labels">-10dp</dimen>
+    <dimen name="value_picker_margin_text">5dp</dimen>
+
+    <!--Account Balance View-->
+
+    <!-- Contacts -->
+
+    <!--applications-->
+
+    <!-- About -->
+
+    <!-- Chat -->
+
+    <!--Spinner-->
+
+    <!--creditCard password-->
+
+    <!--profile exchange-->
+
+    <!--recharge_receipt-->
+
+    <!--vouchers-->
+
+    <!-- Menu -->
+
+    <!-- Tooltip -->
+    <dimen name="ttlm_default_padding">20dp</dimen>
+    <dimen name="ttlm_default_corner_radius">4dp</dimen>
+    <dimen name="ttlm_default_stroke_weight">1.3sp</dimen>
+    <dimen name="ttlm_default_elevation">2dp</dimen>
+
+    <!-- Payment -->
+
+    <!--Default Padding Values-->
+    <dimen name="default_padding_4_dp">4dp</dimen>
+    <dimen name="default_margin_18_dp">18dp</dimen>
+    <dimen name="default_margin_9_dp">9dp</dimen>
+    <dimen name="default_corner_radius_4_dp">4dp</dimen>
+    <dimen name="default_margin_24_dp">24dp</dimen>
+    <dimen name="default_margin_56_dp">56dp</dimen>
+    <dimen name="default_margin_64_dp">64dp</dimen>
+    <dimen name="default_size_1dp">1dp</dimen>
+    <dimen name="default_size_2dp">2dp</dimen>
+    <dimen name="default_margin_21_dp">21dp</dimen>
+    <dimen name="default_margin_6_dp">6dp</dimen>
+    <dimen name="default_text_22_sp">22sp</dimen>
+    <dimen name="default_text_24_sp">24sp</dimen>
+    <dimen name="default_size_48_dp">48dp</dimen>
+    <dimen name="default_size_80_dp">80dp</dimen>
+    <dimen name="default_size_40_dp">40dp</dimen>
+    <dimen name="default_size_64_dp">64dp</dimen>
+
+    <dimen name="default_margin_27_dp">27dp</dimen>
+
+    <dimen name="default_margin_48_dp">48dp</dimen>
+
+    <dimen name="design_fab_size_mini">20dp</dimen>
+    <dimen name="default_size_0_dp">0dp</dimen>
+    <dimen name="default_text_28_sp">28sp</dimen>
+    <dimen name="default_margin_88_dp">88dp</dimen>
+    <dimen name="default_margin_96_dp">96dp</dimen>
+    <dimen name="default_margin_0_dp">0dp</dimen>
+
+    <!-- Imagens dos documentos na tela de envio de documentos -->
+    <dimen name="document_selection_width">60dp</dimen>
+    <dimen name="document_selection_height">40dp</dimen>
+
+    <!-- CampaignLayout -->
+    <dimen name="padding_campaignlayout_root">6dp</dimen>
+    <dimen name="textsize_campaignlayout_campaigntext">14sp</dimen>
+    <dimen name="linespacingextra_campaignlayout_campaigntext">2sp</dimen>
+    <dimen name="textsize_campaignlayout_campaignlink">16sp</dimen>
+
+
+    <!-- Redesign -->
+    <!-- Global -->
+    <!-- Fixos -->
+    <dimen name="size_fixed_minimum">48dp</dimen>
+    <dimen name="size_fixed_minimum_small">32dp</dimen>
+    <dimen name="radius_fixed_card">4dp</dimen>
+    <dimen name="radius_fixed_card_large">8dp</dimen>
+    <dimen name="radius_fixed_button">4dp</dimen>
+    <dimen name="textsize_fixed_iconsmall">16sp</dimen>
+    <dimen name="textsize_fixed_icon">20sp</dimen>
+    <dimen name="textsize_fixed_iconlarge">24sp</dimen>
+    <dimen name="textsize_fixed_iconbutton">24sp</dimen>
+    <dimen name="size_fixed_divider">1dp</dimen>
+    <dimen name="margin_icon_gone">76dp</dimen>
+    <dimen name="height_listtitle">40dp</dimen>
+    <dimen name="height_text_link_button">20dp</dimen>
+
+    <!-- Espaçamentos -->
+    <dimen name="margin_xmin">4dp</dimen>
+    <dimen name="margin_min">6dp</dimen>
+    <dimen name="margin_xxxsmall">8dp</dimen>
+    <dimen name="margin_xxsmall">12dp</dimen>
+    <dimen name="margin_xsmall">16dp</dimen>
+    <dimen name="margin_small">20dp</dimen>
+    <dimen name="margin_medium">24dp</dimen>
+    <dimen name="margin_large">28dp</dimen>
+    <dimen name="margin_xlarge">32dp</dimen>
+    <dimen name="margin_xxlarge">36dp</dimen>
+    <dimen name="margin_xxxlarge">40dp</dimen>
+    <dimen name="margin_giant">44dp</dimen>
+    <dimen name="margin_xgiant">48dp</dimen>
+    <dimen name="margin_xxxgiant">56dp</dimen>
+    <dimen name="margin_xxxxgiant">72dp</dimen>
+    <dimen name="margin_xxxxxgiant">88dp</dimen>
+    <dimen name="padding_inputhint_small">12dp</dimen>
+    <dimen name="padding_inputhint_medium">20dp</dimen>
+    <dimen name="padding_inputhint_large">24dp</dimen>
+    <dimen name="margin_statusbar_medium">40dp</dimen>
+
+    <!-- Tamanhos de texto -->
+    <dimen name="textsize_xxsmall">12sp</dimen>
+    <dimen name="textsize_xsmall">14sp</dimen>
+    <dimen name="textsize_small">16sp</dimen>
+    <dimen name="textsize_medium">20sp</dimen>
+    <dimen name="textsize_large">22sp</dimen>
+    <dimen name="textsize_xlarge">24sp</dimen>
+    <dimen name="textsize_xxlarge">28sp</dimen>
+
+    <dimen name="textsize_input_small">14sp</dimen>
+    <dimen name="textsize_input_medium">16sp</dimen>
+    <dimen name="textsize_input_large">20sp</dimen>
+    <dimen name="textsize_input_xlarge">24sp</dimen>
+
+    <dimen name="textsize_icon">24sp</dimen>
+    <dimen name="textsize_switch">14sp</dimen>
+    <dimen name="textsize_formtitle">28sp</dimen>
+    <dimen name="textsize_covertitle">22sp</dimen>
+    <dimen name="textsize_formtitle_small">28sp</dimen>
+    <dimen name="textsize_screentitle">22sp</dimen>
+    <dimen name="textsize_subtitle">16sp</dimen>
+    <dimen name="textsize_legend">14sp</dimen>
+    <dimen name="textsize_link">14sp</dimen>
+    <dimen name="textsize_button">18sp</dimen>
+    <dimen name="textsize_button_small">16sp</dimen>
+    <dimen name="textsize_button_regular">16sp</dimen>
+    <dimen name="textsize_button_dialogspinner">20sp</dimen>
+    <dimen name="textsize_toolbar">16sp</dimen>
+    <dimen name="textsize_toolbar_trackingtext">14sp</dimen>
+    <dimen name="textsize_toolbar_product">14sp</dimen>
+
+    <dimen name="linespacingextra_xsmall">2sp</dimen>
+    <dimen name="linespacingextra_small">4sp</dimen>
+
+    <dimen name="linespacingextra_screentitle">2sp</dimen>
+    <dimen name="linespacingextra_formtitle">1sp</dimen>
+    <dimen name="linespacingextra_formtitle_small">4sp</dimen>
+    <dimen name="linespacingextra_subtitle">1sp</dimen>
+    <dimen name="linespacingextra_button">6sp</dimen>
+    <dimen name="linespacingextra_button_small">4sp</dimen>
+    <dimen name="linespacingextra_toolbar">4sp</dimen>
+    <dimen name="linespacingextra_toolbar_trackingtext">2sp</dimen>
+    <dimen name="linespacingextra_toolbar_product">2sp</dimen>
+
+    <!-- Toolbar -->
+    <dimen name="height_toolbar">54dp</dimen>
+    <dimen name="height_toolbar_product">80dp</dimen>
+    <dimen name="height_toolbar_extra">80dp</dimen>
+    <dimen name="margin_toolbar_trackingtext_top">2dp</dimen>
+    <dimen name="radius_toolbar_tracking_empty">8dp</dimen>
+    <dimen name="radius_toolbar_tracking_filled">15dp</dimen>
+    <dimen name="height_toolbar_tracking">@dimen/height_toolbar_tracking_filled</dimen>
+    <dimen name="margin_toolbar_tracking_empty">1dp</dimen>
+    <dimen name="height_toolbar_tracking_filled">4dp</dimen>
+
+    <!-- LoginActivity -->
+    <dimen name="size_login_icon">48dp</dimen>
+    <dimen name="size_login_abreconta">120dp</dimen>
+    <dimen name="textsize_login_title">32sp</dimen>
+    <dimen name="margin_login_abreconta">3dp</dimen>
+    <dimen name="padding_login_scrimtop">20dp</dimen>
+    <dimen name="margin_login_descriptiontop">7dp</dimen>
+    <dimen name="margin_login_cardcpftop">28dp</dimen>
+    <dimen name="margin_login_cardcpfbottom">17dp</dimen>
+    <dimen name="padding_login_cardcpftop">17dp</dimen>
+    <dimen name="margin_login_accesstop">36dp</dimen>
+    <dimen name="margin_login_requirements">19dp</dimen>
+    <dimen name="margin_login_inputtop">88dp</dimen>
+
+    <!-- Whatdoneed -->
+
+    <!-- ProfileForm -->
+    <dimen name="margin_profile_form_fields_top">20dp</dimen>
+    <dimen name="margin_profile_form_fields_spacing">12dp</dimen>
+
+    <!-- DataProfessionalForm -->
+    <dimen name="margin_data_professional_form_fields_top_subtitle">28dp</dimen>
+    <dimen name="margin_data_professional_form_fields_top_switch">30dp</dimen>
+    <dimen name="margin_data_professional_form_fields_spacing">10dp</dimen>
+
+    <!-- Bottom Sheet Denied Proposal-->
+    <dimen name="margin_bottom_sheet_peekHeight">190dp</dimen>
+    <dimen name="margin_bottom_sheet_content">44dp</dimen>
+
+    <!-- SnackBar -->
+    <dimen name="margin_snackbar__icon_fixed_start">32dp</dimen>
+    <dimen name="margin_snackbar__icon_animated_start">24dp</dimen>
+    <dimen name="margin_snackbar__message_bottom">24dp</dimen>
+    <dimen name="margin_snackbar__message_end">32dp</dimen>
+    <dimen name="margin_snackbar__message_start">12dp</dimen>
+    <dimen name="margin_snackbar__message_top">24dp</dimen>
+    <dimen name="textsize_snackbar__icon">24sp</dimen>
+    <dimen name="textsize_snackbar__message">16sp</dimen>
+    <dimen name="size_snackbar__icon">40dp</dimen>
+
+    <!-- FormItem -->
+    <dimen name="textsize_edittext_hint">14sp</dimen>
+    <dimen name="linespacingextra_edittext_hint">2sp</dimen>
+    <dimen name="textsize_edittext_error">14sp</dimen>
+    <dimen name="linespacingextra_edittext_error">2sp</dimen>
+    <dimen name="margin_formitem_top">12dp</dimen>
+
+    <!-- RadioGroup -->
+    <dimen name="textsize_radiogroup_option">20sp</dimen>
+
+    <!-- KeyboardNavigation -->
+    <dimen name="keyboardnavigation_height">16sp</dimen>
+    <dimen name="textsize_keyboardnavigation_button_form">16sp</dimen>
+    <dimen name="linespacingextra_keyboardnavigation_button_form">8sp</dimen>
+    <dimen name="textsize_keyboardnavigation_button_single">18sp</dimen>
+    <dimen name="linespacingextra_keyboardnavigation_button_single">6sp</dimen>
+    <dimen name="margin_keyboardnavigation">4dp</dimen>
+
+    <!-- Cover -->
+    <dimen name="textsize_cover_abreconta">20sp</dimen>
+    <dimen name="textsize_cover_title">28sp</dimen>
+    <dimen name="linespacingextra_cover_title">4sp</dimen>
+    <dimen name="size_cover_loading">56dp</dimen>
+    <dimen name="width_cover_backgroundprogressbar">1dp</dimen>
+    <dimen name="width_cover_progressbar">4dp</dimen>
+
+    <!-- Overdraft -->
+
+    <!-- FeedBack -->
+    <dimen name="margin_bottom_feedback">200dp</dimen>
+
+    <!-- Camera -->
+    <dimen name="size_camera">56dp</dimen>
+
+    <!-- DeviceType -->
+    <bool name="istablet">false</bool>
+
+    <!-- CardPassword -->
+    <dimen name="height_cardpassword_cardinfo">68dp</dimen>
+    <dimen name="width_cardpassword_cardimage">56dp</dimen>
+    <dimen name="height_cardpassword_cardimage">36dp</dimen>
+
+    <!-- DialogSpinner -->
+    <dimen name="height_dialogspinner_item">120dp</dimen>
+
+    <!-- Agency -->
+    <dimen name="height_agency_tabbar">88dp</dimen>
+    <dimen name="width_agency_tabview">88dp</dimen>
+
+</resources>
+

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="Spinner">
+        <attr name="spinnerType" format="enum">
+            <enum name="none" value="0" />
+            <enum name="currencies" value="1" />
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="FormField">
+    <attr name="fieldType" format="enum">
+    <enum name="none" value="0" />
+    <enum name="cpf" value="1" />
+    <enum name="name" value="2" />
+    <enum name="date" value="3" />
+    <enum name="mm_yyyy" value="99" />
+    <enum name="email" value="4" />
+    <enum name="phone" value="5" />
+    <enum name="currency" value="6" />
+    <enum name="password" value="7" />
+    <enum name="cep" value="8" />
+    <enum name="currency_range" value="9" />
+    <enum name="spinner" value="11" />
+    <enum name="number" value="77" />
+    <enum name="text" value="88" />
+    <enum name="cnpj" value="10" />
+    <enum name="currency_required" value="97" />
+    <enum name="rg" value="31" />
+    <enum name="cnh" value="32" />
+    <enum name="rne" value="33" />
+    <enum name="address" value="34" />
+    <enum name="city_district" value="35" />
+    <enum name="complement" value="36" />
+    <enum name="company_name" value="55" />
+    <enum name="currency_income" value="37" />
+
+    </attr>
+        <attr name="errorType" format="enum">
+            <enum name="under" value="0" />
+            <enum name="snackbar_" value="1" />
+            <enum name="tooltip" value="2" />
+        </attr>
+        <attr name="hideTextOnError" format="reference"/>
+        <attr name="editTextToConfirmation" format="reference" />
+        <attr name="confirmationField" format="reference" />
+        <attr name="editTextStyle" format="reference" />
+        <attr name="hintFontFamily" format="enum">
+            <enum name="regular" value="0" />
+            <enum name="bold" value="1" />
+            <enum name="extra_bold" value="2" />
+            <enum name="light" value="3" />
+        </attr>
+        <attr name="textFontFamily" format="enum">
+            <enum name="regular" value="0" />
+            <enum name="bold" value="1" />
+            <enum name="extra_bold" value="2" />
+            <enum name="light" value="3" />
+        </attr>
+        <attr name="snackBarType" format="enum">
+            <enum name="none" value="0" />
+            <enum name="success" value="1" />
+            <enum name="error" value="2" />
+        </attr>
+        <attr name="snackBarIconType" format="enum">
+            <enum name="none" value="0" />
+            <enum name="fixed" value="1" />
+            <enum name="animated" value="2" />
+        </attr>
+        <attr name="snackBarIcon" format="string" />
+        <attr name="maxLength" format="integer" />
+        <attr name="snackBarMessage" format="string" />
+        <attr name="snackBarDismissable" format="boolean" />
+        <attr name="snackBarTimer" format="float" />
+        <attr name="snackBarFocusChangeDismissable" format="boolean" />
+        <attr name="shouldValidateOnFocusChange" format="boolean" />
+        <attr name="placeholder" format="string" />
+        <attr name="forcedPlaceholder" format="boolean" />
+        <attr name="shouldTagValidationError" format="boolean" />
+        <attr name="isOptional" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="ToolBarMain">
+        <attr name="toolBarType" format="enum">
+            <enum name="main" value="0" />
+            <enum name="main_without_back" value="1" />
+            <enum name="simple" value="2" />
+            <enum name="simple_transparent" value="3" />
+            <enum name="tracking" value="4" />
+            <enum name="products" value="5" />
+            <enum name="benefitplan" value="6" />
+            <enum name="password" value="7" />
+            <enum name="photo" value="8" />
+            <enum name="without_help" value="9"/>
+            <enum name="dialog" value="10"/>
+        </attr>
+        <attr name="titleToolbarMain" format="string" />
+    </declare-styleable>
+</resources>

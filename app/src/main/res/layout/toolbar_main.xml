@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/ToolbarView">
+
+    <com.br.cambio.customviews.TextIconView
+        android:id="@+id/icToolbarBack"
+        style="@style/IconButton"
+        android:layout_marginStart="@dimen/margin_xsmall"
+        android:text="@string/fonts_toolbar_back"
+        app:layout_constraintBottom_toBottomOf="@+id/tvToolbarTitle"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/tvToolbarTitle"
+        tools:text="&lt;" />
+
+    <TextView
+        android:id="@+id/tvToolbarTitle"
+        style="@style/ToolbarTitle"
+        android:padding="@dimen/margin_min"
+        android:layout_margin="@dimen/margin_xsmall"
+        android:ellipsize="end"
+        android:gravity="center_vertical|center_horizontal"
+        android:singleLine="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/icToolbarHelp"
+        app:layout_constraintLeft_toLeftOf="@+id/icToolbarBack"
+        app:layout_constraintRight_toLeftOf="@+id/icToolbarHelp"
+        app:layout_constraintStart_toEndOf="@+id/icToolbarBack"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_goneMarginEnd="@dimen/margin_icon_gone"
+        app:layout_goneMarginStart="@dimen/margin_icon_gone"
+        tools:text="título" />
+
+    <com.br.cambio.customviews.TextIconView
+        android:id="@+id/icToolbarHelp"
+        style="@style/IconButton"
+        android:layout_marginEnd="@dimen/margin_xsmall"
+        android:layout_marginStart="@dimen/margin_xsmall"
+        android:contentDescription="@string/help"
+        android:text="@string/fonts_help"
+        app:layout_constraintBottom_toBottomOf="@+id/tvToolbarTitle"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/tvToolbarTitle"
+        tools:text="\?" />
+
+    <View
+        android:id="@+id/viewToolbarDivider"
+        style="@style/DividerToolbar"
+        android:layout_marginTop="@dimen/margin_small"
+        android:importantForAccessibility="no"
+        app:layout_constraintTop_toBottomOf="@+id/tvToolbarTitle" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

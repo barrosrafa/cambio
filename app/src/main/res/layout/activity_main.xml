@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/margin_xxxsmall"
+    tools:context=".presentation.ui.MainActivity">
+
+    <com.br.cambio.customviews.Spinner
+        android:id="@+id/spFirst"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/select_your_currencies_first"
+        app:editTextStyle="@style/EditTextMain"
+        app:spinnerType="currencies"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+    <com.br.cambio.customviews.Spinner
+        android:id="@+id/spSecond"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/select_your_currencies_second"
+        app:editTextStyle="@style/EditTextMain"
+        app:spinnerType="currencies"
+        app:layout_constraintTop_toBottomOf="@+id/spFirst"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

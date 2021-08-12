@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Generic Colors-->
+    <color name="black_000000">#000000</color>
+    <color name="black_464646">#464646</color>
+    <color name="white_ffffff">#ffffff</color>
+    <color name="white_55ffffff">#55ffffff</color>
+    <color name="gray_575757">#575757</color>
+    <color name="gray_757575">#757575</color>
+    <color name="gray_8C8C8C">#8C8C8C</color>  <!-- ver utilização-->
+    <color name="gray_969696">#969696</color>
+    <color name="gray_9F9F9F">#9f9f9f</color>
+    <color name="gray_99F2F2F2">#99F2F2F2</color> <!--ver utilização-->
+    <color name="gray_EFEAE8">#EFEAE8</color>
+    <color name="gray_D2D2D2">#D2D2D2</color>
+    <color name="gray_DCD7D2">#DCD7D2</color> <!-- ver util-->
+    <color name="gray_40464646">#40464646</color>
+    <color name="gray_aa000000">#aa000000</color>
+    <color name="gray_16605751">#16605751</color>
+    <color name="gray_C8C8C8">#C8C8C8</color>
+    <color name="blue_2581C4">#2581C4</color>
+    <color name="red_F34235">#781B8E</color> <!--ver uso-->
+
+    <color name="white_FFFFFF">#FFFFFF</color>
+    <color name="gray_EFE9E5">#EFE9E5</color>
+    <color name="gray_464646">#464646</color>
+    <color name="orange_EC7000">#EC7000</color>
+    <color name="orange_EC7404">#EC7404</color>
+
+    <!-- colors-->
+    <color name="window_background">#FFFFFF</color>
+    <color name="primary">#F6932D</color>
+    <color name="primary_dark">#EC7000</color>
+
+    <!-- Home -->
+
+    <!-- Logged Home -->
+    <color name="text_color_theme">#EC7000</color>
+    <color name="theme_color_dark">#B15703</color>
+    <color name="theme_color">#EC7000</color>
+
+    <!--Default spinner color-->
+    <color name="disabled_color">#44000000</color>
+    <color name="error_color">#781B8E</color>
+
+    <color name="menu_text_back">#464646</color>
+
+    <color name="mdtp_accent_color">#F6932D</color>
+    <color name="mdtp_accent_color_dark">#EC7000</color>
+
+    <color name="menu_text_back_blue_2581C4">#2581C4</color>
+    <color name="green_6FA249">#6FA249</color> <!-- ver uso-->
+
+    <color name="purple_531E6D">#531E6D</color>
+    <color name="purple_781B8E">#781B8E</color>
+
+    <color name="gray_5B5149">#5B5149</color>
+    <color name="gray_e6e5e4">#e6e5e4</color>
+    <color name="gray_e5e5e5">#e5e5e5</color>
+    <color name="yellow_f1ae2f">#f1ae2f</color>
+    <color name="attendance_text_3C2813">#3C2813</color>
+    <color name="gray_FF5B5149">#FF5B5149</color>
+    <color name="grey_79706A">#79706A</color>
+    <color name="grey_605751">#605751</color>
+    <color name="gray_3F3935">#3F3935</color>
+    <color name="gray_252220">#252220</color>
+
+    <color name="green_008860">#008860</color>
+    <color name="green_00885A">#00885a</color>
+    <color name="black_252220">#252220</color>
+    <color name="black_CC000000">#CC000000</color>
+    <color name="gray_605751">#605751</color>
+    <color name="gray_B7B7B7">#B7B7B7</color>
+    <color name="blue_1C7CB7">#1C7CB7</color>
+    <color name="gray_FFE6E6E6">#FFE6E6E6</color>
+    <color name="gray_FFEFE9E5">#FFEFE9E5</color>
+    <color name="blue_007AB7">#007AB7</color>
+
+    <color name="item_background">#FFFFFF</color>
+    <color name="item_background_focused">#FAF8F7</color>
+
+    <color name="background_login_cardcpf">#EC7000</color>
+
+    <!-- CampaignLayout -->
+    <color name="background_shape_campaignlayout">#007AB7</color>
+    <color name="text_button_campaignlink">#007AB7</color>
+
+    <!--
+    Opacidade de cores
+
+    100% — FF
+    95% — F2
+    90% — E6
+    85% — D9
+    80% — CC
+    75% — BF
+    70% — B3
+    65% — A6
+    60% — 99
+    55% — 8C
+    50% — 80
+    45% — 73
+    40% — 66
+    35% — 59
+    30% — 4D
+    25% — 40
+    20% — 33
+    15% — 26
+    10% — 1A
+    5% — 0D
+    0% — 00
+    -->
+
+
+
+    <!-- Redesign -->
+    <color name="white">#FFFFFF</color>
+    <color name="light_gray">#FAF8F7</color>
+    <color name="sand">#EFE9E5</color>
+    <color name="gray">#D9D3CF</color>
+    <color name="gray_alpha">#407A6D60</color>
+    <color name="dark_gray">#605751</color>
+    <color name="dark_gray_alpha">#33605751</color>
+    <color name="black">#252220</color>
+    <color name="black_alpha">#33252220</color>
+    <color name="yellow">#FCE770</color>
+    <color name="orange">#EC7000</color>
+    <color name="dark_orange">#D27000</color>
+    <color name="green">#00885A</color>
+    <color name="blue">#007AB7</color>
+    <color name="purple">#781B8E</color>
+    <color name="dark_purple">#531E6D</color>
+    <color name="transparent">#00000000</color>
+    <color name="transparente">#4D000000</color>
+    <color name="beige">#E1B274</color>
+
+    <!-- Textos -->
+    <color name="text_main">@color/dark_gray</color>
+    <color name="text_main_alpha">@color/dark_gray_alpha</color>
+    <color name="text_orange">@color/orange</color>
+    <color name="text_light">@color/white</color>
+    <color name="text_highlight">@color/black</color>
+    <color name="text_link">@color/blue</color>
+    <color name="text_tip">@color/blue</color>
+    <color name="text_bonus">@color/yellow</color>
+    <color name="text_error">@color/purple</color>
+
+    <!-- Background -->
+    <color name="background_light">@color/white</color>
+    <color name="background_sand">@color/sand</color>
+    <color name="background_error">@color/dark_purple</color>
+    <color name="background_card">@color/white</color>
+    <color name="background_orange">@color/orange</color>
+    <color name="background_success">@color/green</color>
+    <color name="background_benefit_plan">@color/blue</color>
+    <color name="background_photo">#CC000000</color>
+    <color name="background_frame">#26000000</color>
+    <color name="background_light_transparent">#CCFFFFFF</color>
+
+
+    <!-- Access text-->
+
+    <!-- EditText -->
+    <color name="text_edittextunfocused">@color/dark_gray</color>
+    <color name="text_edittextfocused">@color/black</color>
+    <color name="underline_edittextunfocused">@color/text_main_alpha</color>
+    <color name="underline_edittextfocused">@color/text_main</color>
+
+    <!-- Botões -->
+    <color name="button_primary_active">@color/orange</color>
+    <color name="button_primary_pressed">@color/dark_orange</color>
+    <color name="button_primary_disabled">@color/gray</color>
+    <color name="button_secondary_active">@color/white</color>
+    <color name="button_secondary_pressed">@color/light_gray</color>
+    <color name="button_secondary_disabled">@color/white</color>
+    <color name="button_list_active">@color/white</color>
+    <color name="button_list_pressed">@color/light_gray</color>
+    <color name="button_list_disabled">@color/white</color>
+    <color name="text_button_primary_active">@color/white</color>
+    <color name="text_button_primary_pressed">@color/white</color>
+    <color name="text_button_primary_disabled">@color/dark_gray</color>
+    <color name="text_button_secondary_active">@color/blue</color>
+    <color name="text_button_secondary_pressed">@color/blue</color>
+    <color name="text_button_secondary_disabled">@color/gray</color>
+    <color name="text_button_list_active">@color/black</color>
+    <color name="text_button_list_pressed">@color/black</color>
+    <color name="text_button_list_disabled">@color/gray_alpha</color>
+    <color name="button_camera_active">@color/orange</color>
+    <color name="button_camera_pressed">@color/dark_orange</color>
+    <color name="button_camera_border_active">@color/white</color>
+    <color name="button_camera_border_pressed">@color/gray</color>
+
+    <!-- SnackBar -->
+    <color name="background_snackbar_success">@color/green</color>
+    <color name="background_snackbar_error">@color/dark_purple</color>
+    <color name="text_snackbar_light">@color/white</color>
+
+    <!-- KeyboardNavigation -->
+    <color name="background_keyboardnavigation">@color/sand</color>
+    <color name="button_keyboardnavigationform_active">@color/button_secondary_active</color>
+    <color name="button_keyboardnavigationform_pressed">@color/button_secondary_pressed</color>
+    <color name="button_keyboardnavigationform_disabled">@color/button_secondary_disabled</color>
+    <color name="button_keyboardnavigationsingle_active">@color/button_primary_active</color>
+    <color name="button_keyboardnavigationsingle_pressed">@color/button_primary_pressed</color>
+    <color name="button_keyboardnavigationsingle_disabled">@color/button_primary_disabled</color>
+    <color name="text_button_keyboardnavigationform_active">@color/text_button_secondary_active</color>
+    <color name="text_button_keyboardnavigationform_pressed">@color/text_button_secondary_pressed</color>
+    <color name="text_button_keyboardnavigationform_disabled">@color/text_button_secondary_disabled</color>
+    <color name="text_button_keyboardnavigationsingle_active">@color/text_button_primary_active</color>
+    <color name="text_button_keyboardnavigationsingle_pressed">@color/text_button_primary_pressed</color>
+    <color name="text_button_keyboardnavigationsingle_disabled">@color/text_button_primary_disabled</color>
+
+    <!-- RadioGroup -->
+    <color name="button_radiogroupactive">@color/white</color>
+    <color name="button_radiogrouppressed">@color/white</color>
+    <color name="button_radiogroupchecked">@color/white</color>
+    <color name="border_radiogroupactive">@color/dark_gray_alpha</color>
+    <color name="border_radiogrouppressed">@color/dark_gray_alpha</color>
+    <color name="border_radiogroupchecked">@color/orange</color>
+    <color name="text_radiogroupactive">@color/dark_gray</color>
+    <color name="text_radiogrouppressed">@color/orange</color>
+    <color name="text_radiogroupchecked">@color/orange</color>
+
+    <!-- Toolbar -->
+    <color name="text_toolbar_title">@color/black</color>
+    <color name="text_toolbar_product">@color/dark_gray</color>
+    <color name="text_toolbar_trackingtext">@color/dark_gray</color>
+    <color name="progress_toolbar_tracking_empty">@color/sand</color>
+    <color name="progress_toolbar_tracking_filled">@color/green</color>
+    <color name="background_toolbar">@color/white</color>
+    <color name="background_toolbar_alpha">@color/background_photo</color>
+
+</resources>
