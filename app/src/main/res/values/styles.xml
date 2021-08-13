@@ -120,6 +120,113 @@
         <item name="layout_constraintStart_toStartOf">parent</item>
         <item name="layout_constraintVertical_bias">1</item>
     </style>
+    
+    <style name="EditText">
+    <item name="android:clipToPadding">false</item>
+    <item name="android:paddingTop">@dimen/default_margin_8_dp</item>
+    <item name="android:textAppearance">@style/Text.Large</item>
+    <item name="android:textColor">@color/gray_252220</item>
+    <item name="android:textColorHint">@color/gray_252220</item>
+
+    <item name="titleTextAppearance">@style/EditText.Title</item>
+    <item name="titleTextColor">@color/gray_252220</item>
+    <item name="focusedTitleTextAppearance">@style/EditText.Title.Focused</item>
+    <item name="focusedTitleTextColor">@color/gray_252220</item>
+    <item name="errorTitleTextAppearance">@style/EditText.Error</item>
+    <item name="lineHeight">@dimen/default_margin_8_dp</item>
+    <item name="errorLineHeight">@dimen/default_margin_8_dp</item>
+    <item name="lineColor">@color/gray_252220</item>
+    <item name="disableLineColor">@color/gray_252220</item>
+    <item name="focusedLineColor">@color/gray_252220</item>
+    <item name="errorColor">@color/purple_531E6D</item>
+    <item name="disabledBackground">@color/gray_252220</item>
+  </style>
+
+  <style name="EditText.Monetary">
+    <item name="android:inputType">numberDecimal</item>
+    <item name="android:hint">0.00</item>
+    <item name="currencyLocale">en_US</item>
+    <item name="android:textAppearance">@style/Number.Large</item>
+    <item name="android:textColor">@color/gray_252220</item>
+  </style>
+
+  <style name="EditText.Monetary.Brazil">
+    <item name="android:hint">0,00</item>
+    <item name="currencyLocale">pt_BR</item>
+  </style>
+
+  <style name="EditText.Monetary.Paraguay">
+    <item name="android:hint">0</item>
+    <item name="currencyLocale">es_PY</item>
+  </style>
+
+  <style name="EditText.Monetary.Argentina">
+    <item name="android:hint">0,00</item>
+    <item name="currencyLocale">es_AR</item>
+  </style>
+
+  <style name="EditText.Monetary.Chile">
+    <item name="android:hint">0</item>
+    <item name="currencyLocale">es_CL</item>
+  </style>
+
+  <style name="EditText.Monetary.Colombia">
+    <item name="android:hint">0</item>
+    <item name="currencyLocale">es_CO</item>
+  </style>
+
+  <style name="EditText.Monetary.Uruguay">
+    <item name="android:hint">0,00</item>
+    <item name="currencyLocale">es_UY</item>
+  </style>
+
+  <style name="EditText.Error" parent="Text.Small">
+    <item name="android:fontFamily">@font/text_bold</item>
+    <item name="android:textColor">@color/purple_531E6D</item>
+  </style>
+
+  <style name="EditText.Title" parent="Text.Small">
+    <item name="android:textColor">#56504c</item>
+  </style>
+
+  <style name="EditText.Title.Focused" parent="EditText.Title">
+    <item name="android:fontFamily">@font/text_bold</item>
+    <item name="android:textColor">@color/gray_252220</item>
+  </style>
+
+  <style name="EditText.Description" parent="Text.Small">
+    <item name="android:textColor">@color/gray_252220</item>
+    <item name="android:maxLines">3</item>
+  </style>
+
+    <style name="Text.Small" parent="android:TextAppearance">
+        <item name="android:fontFamily">@font/text_regular</item>
+        <item name="android:textSize">@dimen/textsize_xsmall</item>
+        <item name="android:textColor">@color/gray_252220</item>
+        <item name="android:lineSpacingMultiplier">1.111</item>
+    </style>
+
+    <style name="Text.Large" parent="android:TextAppearance">
+        <item name="android:fontFamily">@font/text_regular</item>
+        <item name="android:textSize">@dimen/default_text_18_sp</item>
+        <item name="android:textColor">@color/gray_252220</item>
+        <item name="android:lineSpacingMultiplier">1.043</item>
+    </style>
+
+    <style name="Number.Large" parent="android:TextAppearance">
+        <item name="android:fontFamily">@font/text_regular</item>
+        <item name="android:textSize">@dimen/default_text_18_sp</item>
+        <item name="android:textColor">@color/gray_252220</item>
+        <item name="android:lineSpacingMultiplier">0.947</item>
+    </style>
+
+    <style name="Text.Icon" parent="android:TextAppearance">
+        <item name="android:fontFamily">@font/fonts_master_24px_v28</item>
+    </style>
+
+    <style name="Text.Icon.Medium">
+        <item name="android:textSize">@dimen/default_text_24_sp</item>
+    </style>
 
 </resources>
 

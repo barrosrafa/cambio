@@ -4,9 +4,9 @@ import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
+import com.br.cambio.customviews.DialogSpinnerModel
 import com.br.cambio.domain.usecase.GetCurrenciesUseCase
 import com.br.cambio.presentation.mapper.ExchangePresentation
-import com.br.cambio.presentation.model.CurrencyPresentation
 import com.br.cambio.utils.Event
 import com.br.cambio.utils.SimpleEvent
 import com.br.cambio.utils.triggerEvent
@@ -22,7 +22,7 @@ internal class CurrencyViewModel(
     private val dispatcher: CoroutineContext
 ) : ViewModel() {
 
-    private var currentList: List<CurrencyPresentation> = emptyList()
+    private var currentList: List<DialogSpinnerModel> = emptyList()
 
     private val _emptyResponseEvent = MutableLiveData<SimpleEvent>()
     private val _fullResultResponseEvent = MutableLiveData<SimpleEvent>()
@@ -30,7 +30,7 @@ internal class CurrencyViewModel(
     private val _showLoadingEvent = MutableLiveData<SimpleEvent>()
     private val _showScrollLoadingEvent = MutableLiveData<SimpleEvent>()
     private val _showToast = MutableLiveData<SimpleEvent>()
-    private val _successResponseEvent = MutableLiveData<Event<List<CurrencyPresentation>>>()
+    private val _successResponseEvent = MutableLiveData<Event<List<DialogSpinnerModel>>>()
 
     val emptyResponseEvent: LiveData<SimpleEvent>
         get() = _emptyResponseEvent
@@ -38,7 +38,7 @@ internal class CurrencyViewModel(
         get() = _fullResultResponseEvent
     val errorResponseEvent: LiveData<SimpleEvent>
         get() = _errorResponseEvent
-    val successResponseEvent: LiveData<Event<List<CurrencyPresentation>>>
+    val successResponseEvent: LiveData<Event<List<DialogSpinnerModel>>>
         get() = _successResponseEvent
     val loadingEvent: LiveData<SimpleEvent>
         get() = _showLoadingEvent

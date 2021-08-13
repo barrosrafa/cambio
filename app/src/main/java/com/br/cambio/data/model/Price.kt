@@ -1,6 +1,8 @@
 package com.br.cambio.data.model
 
-class Price (
+import java.io.Serializable
+
+data class Price (
     val key: String,
     val value: Double
-)
+): Serializable

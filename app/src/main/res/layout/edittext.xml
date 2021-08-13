@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:layout_height="wrap_content"
+  tools:parentTag="com.br.cambio.customviews.EditText">
+
+  <RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="@dimen/default_margin_8_dp"
+    android:paddingStart="@dimen/default_margin_16_dp"
+    android:paddingEnd="@dimen/default_margin_16_dp">
+
+    <com.br.cambio.customviews.AccessibleEditText
+      android:id="@+id/edittext_edit"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_alignWithParentIfMissing="true"
+      android:layout_below="@+id/edittext_title"
+      android:layout_toEndOf="@+id/edittext_prefix"
+      android:layout_toStartOf="@+id/icon_alignment_container"
+      android:background="@null"
+      android:layout_marginBottom="@dimen/default_margin_2_dp"
+      android:textCursorDrawable="@drawable/textinput_cursor_drawable"
+      tools:hint="@tools:sample/lorem"
+      tools:visibility="visible"
+      android:layout_toRightOf="@+id/edittext_prefix"
+      android:layout_toLeftOf="@+id/icon_alignment_container" />
+
+    <LinearLayout
+        android:id="@+id/icon_alignment_container"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignBottom="@id/edittext_line"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="@dimen/default_margin_8_dp"
+        android:layout_marginLeft="@dimen/default_margin_8_dp"
+        android:gravity="center"
+        android:visibility="gone"
+        tools:visibility="visible">
+
+      <TextView
+          android:id="@+id/edittext_icon"
+          style="@style/Text.Icon.Medium"
+          android:layout_width="@dimen/default_margin_48_dp"
+          android:layout_height="@dimen/default_margin_48_dp"
+          android:layout_gravity="center"
+          android:gravity="center"
+          android:textColor="@color/gray_252220"
+          tools:text="@string/ic_edit"
+          tools:visibility="gone" />
+
+      <TextView
+          android:id="@+id/edittext_small_icon"
+          style="@style/Text.Icon.Medium"
+          android:layout_width="@dimen/default_margin_48_dp"
+          android:layout_height="@dimen/default_margin_48_dp"
+          android:layout_gravity="bottom"
+          android:layout_marginStart="@dimen/default_margin_4_dp"
+          android:layout_marginLeft="@dimen/default_margin_4_dp"
+          android:layout_marginBottom="-4dp"
+          android:textColor="@color/gray_252220"
+          android:visibility="gone"
+          tools:text="@string/ic_edit"
+          tools:visibility="visible" />
+    </LinearLayout>
+
+    <TextView
+      android:id="@+id/edittext_title"
+      android:importantForAccessibility="no"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginBottom="@dimen/default_margin_4_dp"
+      android:layout_alignWithParentIfMissing="true"
+      android:layout_toStartOf="@+id/icon_alignment_container"
+      android:contentDescription="@null"
+      android:fontFamily="@font/text_regular"
+      android:textSize="@dimen/default_text_14_sp"
+      tools:text="title"
+      android:layout_toLeftOf="@+id/icon_alignment_container" />
+
+    <TextView
+      android:id="@+id/edittext_prefix"
+      android:importantForAccessibility="no"
+      android:textStyle="bold"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginEnd="@dimen/default_margin_4_dp"
+      android:layout_marginBottom="@dimen/default_margin_2_dp"
+      android:layout_alignBottom="@+id/edittext_edit"
+      android:layout_below="@+id/edittext_title"
+      android:gravity="bottom"
+      android:textSize="@dimen/default_text_18_sp"
+      android:visibility="gone"
+      android:textColor="@color/gray_252220"
+      tools:visibility="visible"
+      android:layout_marginRight="@dimen/default_margin_4_dp" />
+
+    <TextView
+      android:id="@+id/edittext_error_icon"
+      android:importantForAccessibility="no"
+      style="@style/Text.Icon.Medium"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="@dimen/default_margin_2_dp"
+      android:layout_marginEnd="@dimen/default_margin_4_dp"
+      android:layout_below="@+id/edittext_line"
+      android:gravity="center"
+      android:text="@string/ic_warning"
+      android:textColor="@color/purple_531E6D"
+      android:visibility="visible"
+      android:layout_marginRight="@dimen/default_margin_8_dp" />
+
+    <TextView
+      android:id="@+id/edittext_description"
+      android:importantForAccessibility="yes"
+      style="@style/EditText.Description"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="@dimen/default_margin_2_dp"
+      android:layout_below="@+id/edittext_line"
+      android:layout_toEndOf="@+id/edittext_error_icon"
+      android:maxLines="3"
+      android:layout_toRightOf="@+id/edittext_error_icon" />
+
+    <View
+      android:id="@+id/edittext_line"
+      android:layout_width="match_parent"
+      android:layout_height="@dimen/default_margin_1_dp"
+      android:layout_below="@+id/edittext_edit"
+      android:background="@color/gray_FFEFE9E5" />
+
+  </RelativeLayout>
+
+</merge>

@@ -9,7 +9,7 @@ class PriceToDomainMapper : Mapper<Price, PriceDomain> {
     override fun map(source: Price): PriceDomain {
         return PriceDomain(
             currency = source.key.orEmpty(),
-            price = source.value?:0.0
+            price = source.value
         )
     }
 }

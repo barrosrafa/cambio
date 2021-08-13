@@ -75,7 +75,7 @@ abstract class FormField @JvmOverloads constructor(
         }
     }
 
-    private fun getStyledAttributes(attrs: AttributeSet?): TypedArray {
+    fun getStyledAttributes(attrs: AttributeSet?): TypedArray {
         return context.theme.obtainStyledAttributes(
             attrs,
             R.styleable.FormField,

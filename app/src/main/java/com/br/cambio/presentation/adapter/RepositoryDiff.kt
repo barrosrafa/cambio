@@ -1,19 +1,19 @@
 package com.br.cambio.presentation.adapter
 
 import androidx.recyclerview.widget.DiffUtil
-import com.br.cambio.presentation.model.CurrencyPresentation
+import com.br.cambio.customviews.DialogSpinnerModel
 
-internal object RepositoryDiff : DiffUtil.ItemCallback<CurrencyPresentation>() {
+internal object RepositoryDiff : DiffUtil.ItemCallback<DialogSpinnerModel>() {
     override fun areItemsTheSame(
-        oldItem: CurrencyPresentation,
-        newItem: CurrencyPresentation
+        oldItem: DialogSpinnerModel,
+        newItem: DialogSpinnerModel
     ): Boolean {
-        return oldItem.symbol == newItem.symbol
+        return oldItem.codigo == newItem.codigo
     }
 
     override fun areContentsTheSame(
-        oldItem: CurrencyPresentation,
-        newItem: CurrencyPresentation
+        oldItem: DialogSpinnerModel,
+        newItem: DialogSpinnerModel
     ): Boolean {
         return oldItem == newItem
     }

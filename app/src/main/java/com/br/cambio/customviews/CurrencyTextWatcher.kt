@@ -6,8 +6,11 @@ import android.view.View
 import android.widget.EditText
 import android.widget.FrameLayout
 import android.widget.LinearLayout
+import java.text.DecimalFormat
 
 class CurrencyTextWatcher(private val editText: EditText?) : TextWatcher {
+
+    private val format: DecimalFormat? = null
 
     override fun onTextChanged(s: CharSequence, start: Int, before: Int, after: Int) {
         /* Não implementado */
@@ -48,5 +51,9 @@ class CurrencyTextWatcher(private val editText: EditText?) : TextWatcher {
         editText?.importantForAccessibility = View.IMPORTANT_FOR_ACCESSIBILITY_YES
         editText?.layoutParams = FrameLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT,
                 LinearLayout.LayoutParams.WRAP_CONTENT)
+    }
+
+    fun getCurrencySymbol(): String? {
+        return format?.decimalFormatSymbols?.currencySymbol
     }
 }

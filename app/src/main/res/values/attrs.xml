@@ -66,7 +66,6 @@
             <enum name="fixed" value="1" />
             <enum name="animated" value="2" />
         </attr>
-        <attr name="snackBarIcon" format="string" />
         <attr name="maxLength" format="integer" />
         <attr name="snackBarMessage" format="string" />
         <attr name="snackBarDismissable" format="boolean" />
@@ -94,5 +93,71 @@
             <enum name="dialog" value="10"/>
         </attr>
         <attr name="titleToolbarMain" format="string" />
+    </declare-styleable>
+
+    <declare-styleable name="EditText">
+        <attr name="android:text"/>
+        <attr name="android:textSize"/>
+        <attr name="android:textColor"/>
+        <attr name="android:textAppearance"/>
+        <attr name="android:hint"/>
+        <attr name="android:textColorHint"/>
+        <attr name="android:inputType"/>
+        <attr name="android:imeOptions"/>
+        <attr name="android:enabled"/>
+        <attr name="android:background"/>
+        <attr name="android:maxLength"/>
+
+        <!-- Sets the title text -->
+        <attr name="title"/>
+        <!-- Sets background to disable state -->
+        <attr format="color" name="disabledBackground"/>
+        <!-- Sets text color to title -->
+        <attr format="color" name="titleTextColor"/>
+        <!-- Sets text color to title when on focused state -->
+        <attr format="color" name="focusedTitleTextColor"/>
+        <!-- Sets text appearance to title -->
+        <attr format="reference" name="titleTextAppearance"/>
+        <!-- Sets text appearance to title when on focused state -->
+        <attr format="reference" name="focusedTitleTextAppearance"/>
+        <!-- Sets text appearance to prefix -->
+        <attr format="reference" name="prefixTextAppearance"/>
+        <!-- Sets line color to EditText on disabled -->
+        <attr format="color" name="disableLineColor"/>
+        <!-- Sets line color to EditText on focused state -->
+        <attr format="color" name="focusedLineColor"/>
+        <!-- Sets line color -->
+        <attr format="color" name="lineColor"/>
+        <!-- Sets line height -->
+        <attr format="dimension" name="lineHeight"/>
+        <!-- Sets a prefix to the EditText -->
+        <attr format="string" name="prefix"/>
+        <!-- Sets prefix size -->
+        <attr format="dimension" name="prefix_size" />
+        <!-- Sets a content description to icon -->
+        <attr format="string" name="icon_content_description"/>
+        <!-- Sets a locale to be used on currency mask -->
+        <attr format="string" name="currencyLocale"/>
+        <!-- Sets the view error state -->
+        <attr format="boolean" name="error"/>
+        <!-- Sets the required field state -->
+        <attr format="boolean" name="required" />
+        <!-- Sets the description error if error is true -->
+        <attr format="string" name="descriptionError"/>
+        <!-- Sets the error color to the title and line when view is on the error state -->
+        <attr format="color" name="errorColor"/>
+        <!-- Sets the line height when view is on the error state -->
+        <attr format="dimension" name="errorLineHeight"/>
+        <!-- Sets the title text appearance when view is on the error state -->
+        <attr format="reference" name="errorTitleTextAppearance"/>
+        <!-- Sets the description into text input -->
+        <attr format="string" name="description"/>
+        <!-- Sets the description textSize  -->
+        <attr format="dimension" name="description_size"/>
+        <!-- Sets the textStyle for editText -->
+        <attr name="textStyle">
+            <flag name="normal" value="0" />
+            <flag name="bold" value="1" />
+        </attr>
     </declare-styleable>
 </resources>

@@ -6,8 +6,11 @@ import com.br.cambio.data.api.retrofit.RetrofitClient
 import com.br.cambio.data.datasource.RemoteDataSource
 import com.br.cambio.data.datasource.RemoteDataSourceImpl
 import com.br.cambio.data.repository.CurrencyRepositoryImpl
+import com.br.cambio.data.repository.PricesRepositoryImpl
 import com.br.cambio.domain.repository.CurrencyRepository
+import com.br.cambio.domain.repository.PricesRepository
 import com.br.cambio.domain.usecase.GetCurrenciesUseCase
+import com.br.cambio.domain.usecase.GetPricesUseCase
 import com.br.cambio.presentation.viewmodel.CurrencyViewModel
 import com.br.cambio.presentation.viewmodel.MainViewModel
 import kotlinx.coroutines.Dispatchers
@@ -19,16 +22,18 @@ private const val BASE_URL = "https://btg-mobile-challenge.herokuapp.com"
 
 val domainModules = module {
     factory { GetCurrenciesUseCase(repository = get()) }
+    factory { GetPricesUseCase(repository = get()) }
 }
 
 val presentationModules = module {
     viewModel { CurrencyViewModel(getCurrenciesUseCase = get(), dispatcher = Dispatchers.IO) }
-    viewModel { MainViewModel(getCurrenciesUseCase = get(), dispatcher = Dispatchers.IO) }
+    viewModel { MainViewModel(getCurrenciesUseCase = get(),getPricesUseCase = get(), dispatcher = Dispatchers.IO) }
 }
 
 val dataModules = module {
     factory<RemoteDataSource> { RemoteDataSourceImpl(service = get()) }
     factory<CurrencyRepository> { CurrencyRepositoryImpl(remoteDataSource = get()) }
+    factory<PricesRepository> { PricesRepositoryImpl(remoteDataSource = get()) }
 }
 
 val anotherModules = module {

@@ -5,13 +5,13 @@ import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
+import com.br.cambio.customviews.DialogSpinnerModel
 import com.br.cambio.databinding.RecyclerCurrencyItemBinding
-import com.br.cambio.presentation.model.CurrencyPresentation
 
 internal class CurrencyAdapter(
-) : ListAdapter<CurrencyPresentation, RecyclerView.ViewHolder>(RepositoryDiff) {
+) : ListAdapter<DialogSpinnerModel, RecyclerView.ViewHolder>(RepositoryDiff) {
 
-    private var repositories: List<CurrencyPresentation> = emptyList()
+    private var repositories: List<DialogSpinnerModel> = emptyList()
     private lateinit var viewBinding: RecyclerCurrencyItemBinding
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): RecyclerView.ViewHolder {
@@ -28,7 +28,7 @@ internal class CurrencyAdapter(
         )
     }
 
-    fun update(repos: List<CurrencyPresentation>) {
+    fun update(repos: List<DialogSpinnerModel>) {
         repositories = emptyList()
         repositories = repos
         submitList(repositories)
@@ -49,9 +49,9 @@ internal class CurrencyAdapter(
     ) : RecyclerView.ViewHolder(
         binding.root
     ) {
-        fun update(repositoryItem: CurrencyPresentation) {
-            binding.initials.text = repositoryItem.symbol
-            binding.name.text = repositoryItem.name
+        fun update(repositoryItem: DialogSpinnerModel) {
+            binding.initials.text = repositoryItem.codigo
+            binding.name.text = repositoryItem.nome
         }
     }
 }

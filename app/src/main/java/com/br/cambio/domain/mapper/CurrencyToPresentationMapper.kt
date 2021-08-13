@@ -1,8 +1,8 @@
 package com.br.cambio.domain.mapper
 
+import com.br.cambio.customviews.DialogSpinnerModel
 import com.br.cambio.domain.model.CurrencyDomain
 import com.br.cambio.presentation.mapper.ExchangePresentation
-import com.br.cambio.presentation.model.CurrencyPresentation
 import com.br.cambio.utils.Mapper
 
 class CurrencyToPresentationMapper : Mapper<List<CurrencyDomain>?, ExchangePresentation> {
@@ -24,9 +24,9 @@ class CurrencyToPresentationMapper : Mapper<List<CurrencyDomain>?, ExchangePrese
     private fun toPresentation(source: List<CurrencyDomain>): ExchangePresentation {
         return ExchangePresentation.SuccessResponse(
             source.map {
-                CurrencyPresentation(
-                    symbol = it.symbol,
-                    name = it.name
+                DialogSpinnerModel(
+                    codigo = it.symbol,
+                    nome = it.name
                 )
             }
         )

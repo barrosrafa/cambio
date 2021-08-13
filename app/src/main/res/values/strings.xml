@@ -16,4 +16,8 @@
     <string name="fonts_toolbar_back"></string>
     <string name="help">ajuda</string>
     <string name="fonts_help"></string>
+    <string name="required_field_text">campo requerido</string>
+    <string name="ic_warning" translatable="false"></string>
+    <string name="ic_edit" translatable="false"></string>
+    <string name="title_monetary_style_brazil">valor a converter</string>
 </resources>
